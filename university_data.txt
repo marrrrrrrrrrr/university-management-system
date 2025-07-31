@@ -1,0 +1,28 @@
+# Students (id,firstName,lastName,email)
+S001,Nika,Kapanadze,nika@example.com
+S002,Tako,Beridze,tako@example.com
+S003,Levan,Margvelashvili,levan@example.com
+S004,Nata,Diasamidze,nata@example.com
+S005,Akaki,Lomidze,Akaki@example.com
+
+# Lecturers (id,firstName,lastName,email)
+L001,Irakli,Gogoladze,irakli@example.com
+L002,Nino,Khutsishvili,nino@example.com
+L003,Lado,Kapanadze,Lado@example.com
+L003,Eka,Mosidze,Eka@example.com
+
+
+# Courses (courseId,courseName,lecturerId,startDate,endDate,weekDays)
+C001,Object Oriented Programming,L001,2025-09-01,2025-12-15,MONDAY,WEDNESDAY
+C002,Data Structures,L002,2025-09-01,2025-12-15,TUESDAY,THURSDAY
+C003,Algorithms,L003,2025-09-02,2025-12-16,TUESDAY,FRIDAY
+C004,Machine Learning,L001,2026-02-02,2026-05-20,MONDAY
+
+# Enrollments (courseId,studentId)
+C001,S001
+C001,S002
+C002,S002
+C002,S003
+C002,S005
+C003,S004
+C004,S002
